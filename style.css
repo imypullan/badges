@@ -11,15 +11,16 @@
 }
 
 
-h1 {
+h2 {
   text-align: center;
   margin-bottom: 0;
-  font-weight: bold;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .number span {
   position: absolute;
-  color: black;
+  color: #FFF;
   top: -145px;
   left: 25px;
   font-size: 10rem;
@@ -34,85 +35,153 @@ h1 {
 	margin: 0 auto;
 }
 
+.badge {
+    position: absolute;
+    width: 150px;
+    box-sizing: content-box;
+    border-width: 152px 18px 0;
+    border-style: solid;
+}
 
-
-.htmlBadge {
-     position: absolute;
-     width: 150px;
-     box-sizing: content-box;
-     border-width: 150px 18px 0;
-     border-style: solid;
-     border-color: #E44F26 transparent;
+.badge:before {
+    content: "";
+    position: absolute;
+    border-width: 25px 75px 0;
+    border-style: solid;
    }
-   
-   
-.htmlBadge:before {
-     content: "";
-     position: absolute;
-     border-width: 25px 75px 0;
-     border-style: solid;
-     border-color: #E44F26 transparent;
-   }
- 
 
-.htmlBadgeRight {
+.badgeLight {
   position: absolute;
   height: 0;
   width: 80px;
-  top: -140px;
+  top: -141px;
   left: 75px;
-  border-width: 135px 16px 0 0;
+  border-width: 134px 16px 0 0;
   border-style: solid;
-  border-color: #F1662A transparent;
 }
 
-.htmlBadgeRight:before {
+.badgeLight:before {
      content: "";
      position: absolute;
      border-width: 19px 62px 0 0;
      border-style: solid;
-     border-color: #F1662A transparent;
    }
- 
-   .cssBadge {
-        position: absolute;
-        width: 150px;
-        box-sizing: content-box;
-        border-width: 150px 18px 0;
-        border-style: solid;
-        border-color: #1572B6 transparent;
-      }
    
-   
-   .cssBadge:before {
-        content: "";
-        position: absolute;
-        border-width: 25px 75px 0;
-        border-style: solid;
-        border-color: #1572B6 transparent;
-      }
- 
-
-   .cssBadgeRight {
-     position: absolute;
-     height: 0;
-     width: 80px;
-     top: -140px;
-     left: 75px;
-     border-width: 135px 16px 0 0;
-     border-style: solid;
-     border-color: #33A9DC transparent;
+.badgeNumberTop {
+   	position: absolute;
+   	width: 70px;
+   	top: -120px;
+   	left: 70px;
+   	z-index: 100;
+   	border-width: 20px 2px 0;
+   	border-style: solid;
+   	border-color: #FFF transparent;
    }
+   
+.badgeNumberTop:before {
+   	content: "";
+	position: absolute;
+   	width: 62px;
+   	top: -20px;
+   	left: -61px;
+   	border-width: 20px 0 0 2px;
+   	border-style: solid;
+   	border-color: #EBEBEB transparent;
+}
 
-   .cssBadgeRight:before {
-        content: "";
-        position: absolute;
-        border-width: 19px 62px 0 0;
-        border-style: solid;
-        border-color: #33A9DC transparent;
-      }
+.badgeNumberBottomLeft {
+   	position: absolute;
+   	width: 55px;
+   	top: -33px;
+   	left: 20px;
+   	border-width: 0 0 20px 20px;
+   	border-style: solid;
+   	border-color: #EBEBEB transparent;
+	transform: skew(0, 20deg);
+}
+
+
+.badgeNumberBottomLeft:before {
+   	content: "";
+	position: absolute;
+   	width: 21px;
+	height: 23px;
+   	top: -7px;
+   	left: -21px;
+   	background-color: #EBEBEB;
+	transform: skew(5deg, -20deg);
+}
+
+.badgeNumberBottomRight {
+	position: absolute;
+   	width: 55px;
+   	top: -33px;
+   	left: 75px;
+   	border-width: 20px 0 0 0;
+   	border-style: solid;
+   	border-color: #FFF transparent;
+	transform: skew(0, -20deg);
+}
+
+.badgeNumberBottomRight:before {
+	content: "";
+	position: absolute;
+   	width: 21px;
+	height: 23px;
+   	top: -27px;
+   	left: 35px;
+   	background-color: #FFF;
+	transform: skew(-5deg, 20deg);
+}
+
+
+
+   /* HTML Badge */
+
+.htmlBadge,
+.htmlBadge:before {
+	 border-color: #E44F26 transparent;
+}
+
+.htmlBadgeLight,
+.htmlBadgeLight:before {
+	border-color: #F1662A transparent;
+}
+
+.badgeNumberLeftFive {
+	position: absolute;
+   	width: 21px;
+	height: 16px;
+   	top: -101px;
+   	left: 14px;
+	background-color: #EBEBEB;
+	transform: skew(6deg, -0deg);
+	
+}
+
+
+
+   /* CSS Badge */
+   
+.cssBadge,
+.cssBadge:before {
+   	border-color: #1572B6 transparent;
+}
+
+.cssBadgeLight,
+.cssBadgeLight:before {
+	 border-color: #33A9DC transparent;
+}
+
+.badgeNumberRightThree {
+	position: absolute;
+   	width: 21px;
+	height: 56px;
+   	top: -101px;
+   	left: 114px;
+	background-color: #FFF;
+	transform: skew(-6deg, -0deg);
+	
+}
    
    
-
-
-
