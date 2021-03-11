@@ -127,11 +127,11 @@ h2 {
 	content: "";
 	position: absolute;
    	width: 21px;
-	height: 23px;
-   	top: -27px;
-   	left: 35px;
+	height: 37px;
+   	top: -41px;
+   	left: 36px;
    	background-color: #FFF;
-	transform: skew(-5deg, 20deg);
+	transform: skew(-6deg, 20deg);
 }
 
 
@@ -151,7 +151,7 @@ h2 {
 .badgeNumberLeftFive {
 	position: absolute;
    	width: 21px;
-	height: 16px;
+	height: 22px;
    	top: -101px;
    	left: 14px;
 	background-color: #EBEBEB;
@@ -159,6 +159,27 @@ h2 {
 	
 }
 
+.badgeNumberMiddleFiveLine {
+	position: absolute;
+	    width: 61px;
+	    top: -80px;
+	    left: 75px;
+	    border-width: 20px 2px 0 0;
+	    border-style: solid;
+	    border-color: #FFF transparent;
+}
+   
+.badgeNumberMiddleFiveLine:before {
+	content: "";
+	    position: absolute;
+	    width: 58px;
+	    top: -20px;
+	    left: -60px;
+	    border-width: 20px 0 0 2px;
+	    border-style: solid;
+	    border-color: #EBEBEB transparent;
+	}
+	
 
 
    /* CSS Badge */
