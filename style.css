@@ -1,0 +1,120 @@
+/* General */
+
+* {
+	box-sizing: border-box;
+	font-family: 'Gotham Pro', sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.number span {
+  position: absolute;
+  color: black;
+  top: -145px;
+  left: 25px;
+  font-size: 10rem;
+  margin: 0;
+  padding: 0;
+}
+
+.borderBox {
+	position: relative;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+}
+
+
+
+/* HTML badge */
+
+.htmlBadge {
+     position: absolute;
+     width: 150px;
+     box-sizing: content-box;
+     border-width: 150px 18px 0;
+     border-style: solid;
+     border-color: #E44F26 transparent;
+   }
+   
+   
+.htmlBadge:before {
+     content: "";
+     position: absolute;
+     border-width: 25px 75px 0;
+     border-style: solid;
+     border-color: #E44F26 transparent;
+   }
+ 
+
+.htmlBadgeRight {
+  position: absolute;
+  height: 0;
+  width: 80px;
+  top: -140px;
+  left: 75px;
+  border-width: 135px 16px 0 0;
+  border-style: solid;
+  border-color: #F1662A transparent;
+}
+
+.htmlBadgeRight:before {
+     content: "";
+     position: absolute;
+     border-width: 19px 62px 0 0;
+     border-style: solid;
+     border-color: #F1662A transparent;
+   }
+ 
+   .cssBadge {
+        position: absolute;
+        width: 150px;
+        box-sizing: content-box;
+        border-width: 150px 18px 0;
+        border-style: solid;
+        border-color: #1572B6 transparent;
+      }
+   
+   
+   .cssBadge:before {
+        content: "";
+        position: absolute;
+        border-width: 25px 75px 0;
+        border-style: solid;
+        border-color: #1572B6 transparent;
+      }
+ 
+
+   .cssBadgeRight {
+     position: absolute;
+     height: 0;
+     width: 80px;
+     top: -140px;
+     left: 75px;
+     border-width: 135px 16px 0 0;
+     border-style: solid;
+     border-color: #33A9DC transparent;
+   }
+
+   .cssBadgeRight:before {
+        content: "";
+        position: absolute;
+        border-width: 19px 62px 0 0;
+        border-style: solid;
+        border-color: #33A9DC transparent;
+      }
+   
+   
+
+
+
